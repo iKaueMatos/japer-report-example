@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=japer'
+      - 'POSTGRES_PASSWORD=12345'
+      - 'POSTGRES_USER=root'
+    ports:
+      - '5432'
